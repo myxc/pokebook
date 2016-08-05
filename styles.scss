@@ -1,0 +1,41 @@
+.boy{
+	background-color: white;
+	margin-left: 20%;
+	p{
+		font-size: 50px;
+	}
+	.li{
+		font-size: 20px;
+	}
+}
+.navbar{
+	margin:0;
+	background-color: #3b5998;
+	p{color: white;}
+	.navbar-brand{color: white;
+		margin-top: 6%;
+		margin-bottom: 3%;
+		font-size: 35px;}
+	.navbar-form{
+		margin-top: 8px;
+		margin-bottom: 1px;
+		p{margin-bottom: 2px;}
+	}
+	.form-control{
+		width:800px;
+	}
+	.pokename{
+		color: white;
+		font-size: 30px;
+		text-decoration: none;
+	}
+	#profthumb{
+		width:60px;
+		height: auto;
+		margin-top: 6px;
+		margin-bottom: 5px;
+	}
+}
+.month{
+	width: 86px;
+}
