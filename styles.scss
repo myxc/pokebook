@@ -9,33 +9,56 @@
 	}
 }
 .navbar{
+	width: 100%;
 	margin:0;
 	background-color: #3b5998;
 	p{color: white;}
 	.navbar-brand{color: white;
-		margin-top: 6%;
-		margin-bottom: 3%;
+		margin-top: 4px;
+		margin-bottom: 7px;
+
 		font-size: 35px;}
 	.navbar-form{
-		margin-top: 8px;
+		margin-top: 12px;
 		margin-bottom: 1px;
 		p{margin-bottom: 2px;}
 	}
 	.form-control{
-		width:800px;
+		width:450px;
 	}
 	.pokename{
 		color: white;
-		font-size: 30px;
+		margin-left: 150px;
+		font-size: 20px;
+
 		text-decoration: none;
 	}
 	#profthumb{
-		width:60px;
+		width:40px;
 		height: auto;
 		margin-top: 6px;
-		margin-bottom: 5px;
+		margin-bottom: 0px;
 	}
 }
 .month{
 	width: 86px;
 }
+body .no-dec{
+	text-decoration: none;
+	height:30px;
+}
+.nav{
+	width: 100%;
+}
+.row-about{
+	background-color: gray;
+}
+.img-responsive{
+	height:300px;
+	width: 650px;
+	object-fit:contain;
+}
+.edit-button{
+	text-align: center;
+	font-size: 30px;
+    }

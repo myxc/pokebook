@@ -21,7 +21,7 @@
   <!-- Every page will have this same header because they will all have the same navbar at the top-->
   <header>
    <nav class="navbar navbar-inverse navbar-default">
-  <div class="container-fluid">
+  <div class="container-fluid container">
 
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -45,13 +45,99 @@
         </div>
 
    <!-- Where you want to display the user's first name as a link to their about page -->
-     <span > <a class="pokename" href="about.html">Dragonite</a></span>
+     <span class="movename"> <a class="pokename" href="about.html">Dragonite</a></span>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
   </header>
-
-  <body>
+  <!--article for the top part of the profile because it will appear on each of the pages to be made-->
+  <article>
+    <!--container for coverphoto, profile picture, and various links-->
+    <div class="container">
+      <div class="row"> 
+      <!--Giant Cover photo img-->
+        <img src="https://65.media.tumblr.com/avatar_126f47a85896_128.png" class="img-responsive" alt="Responsive image">
+      </div>
+      <!-- Row of links -->
+      <!-- For future reference, to make the buttons look seamless on panel, just make a table of <a> links instead of these buttons-->
+      <div class="panel panel-default">
+  <div class="panel-heading">
+      <div style="position:relative" class="row">
+        <div class="col-md-2"></div>
+        <button type="button" class="btn btn-default no-dec col-md-1">Timeline</button>
+        <button type="button" class="btn btn-default no-dec col-md-1">About</button>
+        <button type="button" class="btn btn-default no-dec col-md-1">Photos</button>
+        <button type="button" class="btn btn-default no-dec col-md-1">Friends</button>
+        <div class="col-md-3"></div>
+        <a class="col-md-2 edit-profile">Edit Profile</a>
+          <!--Profile picture-->
+        <img style="position:absolute;left:15px;bottom:15px;" src="https://65.media.tumblr.com/avatar_126f47a85896_128.png" alt="..." class="img-thumbnail">
+        <h3 style="position:absolute; left:190px; bottom:40px;">Dragonite</h3>
+      </div>
+      </div>
+    </div>
+  </article>
+  
+  <div class="container">
+    <!--First row that says what the tab is called etc.-->
     
-  </body>
+    <div class="row">
+<!--Learned now that using panels is the best way to do things... dammit have to redo the top portion of the page...-->
+<div class="panel panel-default">
+  <div style="position:relative" class="panel-heading">
+    <h2 class="panel-title edit-button">About</h2>
+    <button class="btn btn-info" style="position:absolute;right:10px; bottom:10px;"> Edit your Profile</button>
+  </div>
+  <!-- Now to make the rest of the panel full of text info.-->
+  <div class="panel-body">
+    <!--Row containing the Titles for basic info and words to live by-->
+    <div class="row">
+      <!--Basic information column-->
+      <div class="col-md-5">
+        <h3>Basic Information</h3>
+        <!--Row for the two columns of category and information-->
+        <div class="row">
+          <div class="col-md-4">
+           <p>Birthday:</p>
+           <p>College:</p>
+           <p>Hometown:</p>
+           <p>Currently Live:</p>
+           </div>
+           <div class="col-md-5 ">
+           <p>July 31st, 1100</p>
+           <p>Dragonite University</p>
+           <p>Chicago</p>
+           <p>Busan, Korea</p> 
+           </div>          
+        </div>
+
+        <div class="row">
+        <h3>Contact Information</h3>
+          <div class="col-md-4">
+            <p>Email:</p>
+            <p>Telephone:</p>
+          </div>
+          <div class="col-md-5">
+            <p>cantcatchme@fuckuniantic.com</p>
+            <p>555-123-4567</p>
+          </div>
+        </div>
+      </div>  
+      <!--Words to live py column-->
+      <div class=" col-md-5 col-md-offset-1">
+        <div class="row">
+        <h3>Words to Live py</h3>  
+        <p>Pellentesque hapitant morpi tristique senectus et netus et malesuada fames ac turpis egestas. Vestipulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu lipero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+      </div>
+      <div class="row">
+      <h3>Apout Me</h3>
+      <p>Pellentesque hapitant morpi tristique senectus et netus et malesuada fames ac turpis egestas. Vestipulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  </div>
+
 
