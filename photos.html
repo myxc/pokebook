@@ -81,111 +81,169 @@
 <!--Learned now that using outlin panels is the best way to do things... dammit have to redo the top portion of the page...-->
 <div class="outlin panel outlin panel-default">
   <div class="outlin panel-heading">
-    <h2 class="panel-title edit-button">Friends</h2>
+    <h2 class="panel-title edit-button">Photos</h2>
   </div>
-  <!-- Now to make the rest of the outlin panel full of text info.-->
-  <div class="outlin panel-body">
-    <div class="row">
-      <!--First column of friends-->
-      <div class="col-md-4">
-        
-        <div class="media">
-  <div class="media-left">
-    <a href="#">
-      <img class="media-object" src="..." alt="...">
+
+  <!-- Now to make the rest of the outlin panel full of text info.
+<div class="outlin" style="position:relative; height:800px; width:1169px;">
+  <!--Each div is for a single photo on this grid
+  The rel/absolute distances method used here is uncouth as fuck and I'll probably use ul and li for future image collections...-
+  <div class="picture-grid-element" style="position:absolute;margin-top:5px; margin-left:5px;">
+    <img src="#" alt="..." class="img-thumbnail grid-pic">
+    <span class="text-content"><span style="position:absolute;margin-top:5px; margin-left:5px;>Place Name</span></span>
+
+  </div>
+  
+  <div class="picture-grid-element" style="position:absolute;margin-top:355px; margin-left:5px;">
+    <img src="#" alt="..." class="img-thumbnail grid-pic">
+    <span class="text-content"><span>Place Name</span></span>
+
+  </div>
+  <div class="picture-grid-element" style="position:absolute;margin-top:705px; margin-left:5px;">
+    <img src="#" alt="..." class="img-thumbnail grid-pic">
+    <span class="text-content"><span>Place Name</span></span>
+
+  </div>
+
+  <div class="picture-grid-element" style="position:absolute;margin-top:calc(705+350)px; margin-left:5px;">
+    <img src="#" alt="..." class="img-thumbnail grid-pic">
+    <span class="text-content"><span>Place Name</span></span>
+
+  </div>
+
+  <div class="picture-grid-element" style="position:absolute;margin-top:5px; margin-left:355px;">
+    <img src="#" alt="..." class="img-thumbnail grid-pic">
+    <span class="text-content"><span>Place Name</span></span>
+
+  </div>
+  
+  <div class="picture-grid-element" style="position:absolute;margin-top:355px; margin-left:355px;">
+    <img src="#" alt="..." class="img-thumbnail grid-pic">
+    <span class="text-content"><span>Place Name</span></span>
+
+  </div>
+  <div class="picture-grid-element" style="position:absolute;margin-top:705px; margin-left:355px;">
+    <img src="#" alt="..." class="img-thumbnail grid-pic">
+    <span class="text-content"><span>Place Name</span></span>
+
+  </div>
+
+  <div class="picture-grid-element" style="position:absolute;margin-top:calc(705+350)px; margin-left:355px;">
+    <img src="#" alt="..." class="img-thumbnail grid-pic">
+    <span class="text-content"><span>Place Name</span></span>
+
+  </div>
+
+  <div class="picture-grid-element" style="position:absolute;margin-top:5px; margin-left:705px;">
+    <img src="#" alt="..." class="img-thumbnail grid-pic">
+    <span class="text-content"><span>Place Name</span></span>
+
+  </div>
+  
+  <div class="picture-grid-element" style="position:absolute;margin-top:355px; margin-left:705px;">
+    <img src="#" alt="..." class="img-thumbnail grid-pic">
+    <span class="text-content"><span>Place Name</span></span>
+
+  </div>
+  <div class="picture-grid-element" style="position:absolute;margin-top:705px; margin-left:705px;">
+    <img src="#" alt="..." class="img-thumbnail grid-pic">
+    <span class="text-content"><span>Place Name</span></span>
+
+  </div>
+
+  <div class="picture-grid-element" style="position:absolute;margin-top:calc(705+350)px; margin-left:705px;">
+    <img src="#" alt="..." class="img-thumbnail grid-pic">
+ -->
+<div class="panel-body">
+   <ul class="img-list">
+  <li style="display: inline-block;">
+    <a href="http://nataliemac.com">
+      <img src="http://geekgirllife.com/images/filename.jpg" width="350" height="350" />
+      <span class="text-content"><span>Place Name</span></span>
     </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">Kanye West</h4>
-    432 Friends <button class="btn btn-default unfriend-button">Unfriend Me</button>
-  </div>
-</div>
+  </li>
 
-      </div>
-      <!--Second column of friends-->
-      <div class="col-md-4 col-md-offset-2">
-
-<div class="media">
-  <div class="media-left">
-    <a href="#">
-      <img class="media-object" src="..." alt="...">
+    <li style="display: inline-block;">>
+    <a href="http://nataliemac.com">
+      <img src="http://geekgirllife.com/images/filename.jpg" width="350" height="350" />
+      <span class="text-content"><span>Place Name</span></span>
     </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">Kanye West</h4>
-    432 Friends <button class="btn btn-default unfriend-button">Unfriend Me</button>
-  </div>
-</div>
+  </li>
 
-      </div>
-    </div>
-    <!--ROW TWO-->
-    <div class="row">
-      <!--First column of friends-->
-      <div class="col-md-4">
-        
-        <div class="media">
-  <div class="media-left">
-    <a href="#">
-      <img class="media-object" src="..." alt="...">
+   <li style="display: inline-block;">>
+    <a href="http://nataliemac.com">
+      <img src="http://geekgirllife.com/images/filename.jpg" width="350" height="350" />
+      <span class="text-content"><span>Place Name</span></span>
     </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">Kanye West</h4>
-    432 Friends <button class="btn btn-default unfriend-button">Unfriend Me</button>
-  </div>
-</div>
-
-      </div>
-      <!--Second column of friends-->
-      <div class="col-md-4 col-md-offset-2">
-
-<div class="media">
-  <div class="media-left">
-    <a href="#">
-      <img class="media-object" src="..." alt="...">
+  </li>
+</ul>
+<ul class="img-list">
+  <li style="display: inline-block;">
+    <a href="http://nataliemac.com">
+      <img src="http://geekgirllife.com/images/filename.jpg" width="350" height="350" />
+      <span class="text-content"><span>Place Name</span></span>
     </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">Kanye West</h4>
-    432 Friends <button class="btn btn-default unfriend-button">Unfriend Me</button>
-  </div>
-</div>
+  </li>
 
-      </div>
-    </div>    
-    <!--ROW THREE-->
-    <div class="row">
-      <!--First column of friends-->
-      <div class="col-md-4">
-
-<div class="media">
-  <div class="media-left">
-    <a href="#">
-      <img class="media-object" src="..." alt="...">
+    <li style="display: inline-block;">>
+    <a href="http://nataliemac.com">
+      <img src="http://geekgirllife.com/images/filename.jpg" width="350" height="350" />
+      <span class="text-content"><span>Place Name</span></span>
     </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">Kanye West</h4>
-    432 Friends <button class="btn btn-default unfriend-button">Unfriend Me</button>
-  </div>
-</div>
+  </li>
 
-      </div>
-      <!--Second column of friends-->
-      <div class="col-md-4 col-md-offset-2">
-
-<div class="media">
-  <div class="media-left">
-    <a href="#">
-      <img class="media-object" src="..." alt="...">
+   <li style="display: inline-block;">>
+    <a href="http://nataliemac.com">
+      <img src="http://geekgirllife.com/images/filename.jpg" width="350" height="350" />
+      <span class="text-content"><span>Place Name</span></span>
     </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">Kanye West</h4>
-    432 Friends <button class="btn btn-default unfriend-button">Unfriend Me</button>
-  </div>
-</div>
+  </li>
+</ul>
 
-      </div>
-    </div>
+<ul class="img-list">
+  <li style="display: inline-block;">
+    <a href="http://nataliemac.com">
+      <img src="http://geekgirllife.com/images/filename.jpg" width="350" height="350" />
+      <span class="text-content"><span>Place Name</span></span>
+    </a>
+  </li>
+
+    <li style="display: inline-block;">>
+    <a href="http://nataliemac.com">
+      <img src="http://geekgirllife.com/images/filename.jpg" width="350" height="350" />
+      <span class="text-content"><span>Place Name</span></span>
+    </a>
+  </li>
+
+   <li style="display: inline-block;">>
+    <a href="http://nataliemac.com">
+      <img src="http://geekgirllife.com/images/filename.jpg" width="350" height="350" />
+      <span class="text-content"><span>Place Name</span></span>
+    </a>
+  </li>
+</ul>
+
+<ul class="img-list">
+  <li style="display: inline-block;">
+    <a href="http://nataliemac.com">
+      <img src="http://geekgirllife.com/images/filename.jpg" width="350" height="350" />
+      <span class="text-content"><span>Place Name</span></span>
+    </a>
+  </li>
+
+    <li style="display: inline-block;">>
+    <a href="http://nataliemac.com">
+      <img src="http://geekgirllife.com/images/filename.jpg" width="350" height="350" />
+      <span class="text-content"><span>Place Name</span></span>
+    </a>
+  </li>
+
+   <li style="display: inline-block;">>
+    <a href="http://nataliemac.com">
+      <img src="http://geekgirllife.com/images/filename.jpg" width="350" height="350" />
+      <span class="text-content"><span>Place Name</span></span>
+    </a>
+  </li>
+</ul>
+</div>
+</div>
