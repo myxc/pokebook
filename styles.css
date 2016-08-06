@@ -110,4 +110,40 @@ span.text-content span {
 ul.img-list li:hover span.text-content {
   opacity: 1; }
 
+.no-padding {
+  margin-left: 0; }
+
+.photo-grid .img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+  .photo-grid .img-list li {
+    height: 90px;
+    margin: 1em 1em 1em 0;
+    position: relative;
+    width: 90px; }
+
+.about-header {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #D3D3D3; }
+
+.photo-header {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #D3D3D3; }
+
+.photo-grid .see-more-photos {
+  text-align: center;
+  text-decoration: underline; }
+
+.friends-header {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #D3D3D3; }
+
 /*# sourceMappingURL=styles.css.map */
