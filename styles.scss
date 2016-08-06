@@ -55,10 +55,28 @@ body .no-dec{
 }
 .img-responsive{
 	height:300px;
-	width: 650px;
+	width: 100%;
 	object-fit:contain;
 }
 .edit-button{
 	text-align: center;
 	font-size: 30px;
     }
+.media{
+	outline: black solid thin;
+	margin:30px 20px 20px 20px;
+	height: 75px;
+	width: 500px;
+	button{
+		margin: 0 0 0 100px;
+	}
+}
+.outlin{
+	outline: black solid thin;
+}
+.panel-size{
+	width: 100%;
+}
+.spacer{
+	margin-bottom: 30px;
+}
